@@ -5,10 +5,42 @@
     <title>THIS IS IT</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script scr="main.js"></script>
+    <script src="main.js"></script>
 </header>
 
+
 <body>
+
+
+    <table id="main-table">
+        <tr>
+            <td>
+                <label>Brick Symbol:</label>
+            </td>
+            <td>
+                <select name="symbol" id="symbol">
+                    <option value="#">#</option>
+                    <option value="@">@</option>
+                    <option value="X">X</option>
+                    <option value="$">$</option>
+                </select>
+            </td>
+            <td>
+                <label>How high?</label>
+            </td>
+            <td>
+                <input type="range" id="height">
+            </td>
+        </tr>
+    <table>
+
+
+
+    <!-- Where the outputted pyramid gon go -->
+    <div class="pyramid">
+
+    </div>
+
 </body>
 
 </html>
