@@ -1,3 +1,21 @@
 #main-table td {
-    padding: 0 5px;
+    padding: 25px 5px;
+}
+#main-table  {
+    margin-left: 50px;
+}
+.table {
+    background-color: steelblue;
+    color: #fff;
+    margin: auto;
+    width: 60%;
+}
+.pyramid {
+    background-color: #fffff0;
+    color: steelblue;
+
+}
+h1 {
+    padding: 25px 0;
+    font-style: italic;
 }

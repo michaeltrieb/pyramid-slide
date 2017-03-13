@@ -1,13 +1,5 @@
 
 
-// Figure out which symbol the user chose
-
-
-
-
-
-
-
 
 function drawPyramid() {
 
@@ -22,7 +14,7 @@ function drawPyramid() {
 
 
     //  Clear the content area
-        $("#pyramid").empty();
+        $(".pyramid").empty();
 
 
     //  Deliver Variable Content to Content Area
@@ -40,26 +32,12 @@ function drawPyramid() {
                 }
                 for (var i = 0; i < numBricks; i++) {
                     rowStr += symbol;
-                    console.log("Symbol Value", rowStr);
                 }
 
             //  Build Content Block, Append to Content Area
                 rowElem = $("<p>").html(rowStr);
-                $("#pyramid").append(rowElem);
+                $(".pyramid").append(rowElem);
         }
 
-        console.log("It's getting here");
+
 }
-
-$(document).ready(function() {
-
-
-
-
-    $("#height").on("change", drawPyramid());
-
-
-
-
-
-});

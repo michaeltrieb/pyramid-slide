@@ -2,7 +2,7 @@
 <html>
 
 <header>
-    <title>THIS IS IT</title>
+    <title>P SLIZZLE</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="main.js"></script>
@@ -10,36 +10,39 @@
 
 
 <body>
+    <div class="table">
+        <h1 align="center">P SLIZZLE</h1>
+        <table id="main-table">
+            <tr>
+                <td>
+                    <label><h3>Brick Symbol:</h3></label>
+                </td>
+                <td>
+                    <select name="symbol" id="symbol">
+                        <option value="#">#</option>
+                        <option value="@">@</option>
+                        <option value="X">X</option>
+                        <option value="$">$</option>
+                    </select>
+                </td>
+                <td>
+                    <label><h3>How high?</h3></label>
+                </td>
+                <td>
+                    <input type="range" id="height" Value=0 oninput=drawPyramid()>
+                </td>
+            </tr>
+        </table>
 
+        <!-- Where the outputted pyramid gon go -->
+        <div class="pyramid">
 
-    <table id="main-table">
-        <tr>
-            <td>
-                <label>Brick Symbol:</label>
-            </td>
-            <td>
-                <select name="symbol" id="symbol">
-                    <option value="#">#</option>
-                    <option value="@">@</option>
-                    <option value="X">X</option>
-                    <option value="$">$</option>
-                </select>
-            </td>
-            <td>
-                <label>How high?</label>
-            </td>
-            <td>
-                <input type="range" id="height">
-            </td>
-        </tr>
-    <table>
-
-
-
-    <!-- Where the outputted pyramid gon go -->
-    <div class="pyramid">
-
+        </div>
     </div>
+
+
+
+
 
 </body>
 
