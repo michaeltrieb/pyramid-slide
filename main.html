@@ -26,19 +26,24 @@
                     </select>
                 </td>
                 <td>
-                    <label><h3>How high?</h3></label>
+                    <label><h3>How high? ;)</h3></label>
                 </td>
                 <td>
-                    <input type="range" id="height" Value=0 oninput=drawPyramid()>
+                    <input type="range" id="height"
+                           Value=0 oninput=drawPyramid()
+                           max="25">
+                </td>
+                <td>
+                    <h3 id="height_value"></h3>
                 </td>
             </tr>
         </table>
 
         <!-- Where the outputted pyramid gon go -->
         <div class="pyramid">
-
         </div>
-    </div>
+
+    </div>  <!--table-->
 
 
 

@@ -39,5 +39,7 @@ function drawPyramid() {
                 $(".pyramid").append(rowElem);
         }
 
-
+    //  Display number of pyramid rows on DOM
+        var heightTD = document.getElementById("height_value");
+        heightTD.innerHTML = height + "!!";
 }
