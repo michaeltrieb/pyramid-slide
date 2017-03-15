@@ -41,5 +41,5 @@ function drawPyramid() {
 
     //  Display number of pyramid rows on DOM
         var heightTD = document.getElementById("height_value");
-        heightTD.innerHTML = height + "!!";
+        heightTD.innerHTML = height + "!";
 }
