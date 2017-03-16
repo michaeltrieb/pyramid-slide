@@ -18,7 +18,7 @@
                     <label><h3>Brick Symbol:</h3></label>
                 </td>
                 <td>
-                    <select name="symbol" id="symbol">
+                    <select name="symbol" id="symbol" oninput=drawPyramid()>
                         <option value="#">#</option>
                         <option value="@">@</option>
                         <option value="X">X</option>
@@ -31,7 +31,7 @@
                 <td>
                     <input type="range" id="height"
                            Value=0 oninput=drawPyramid()
-                           max="25">
+                           max="20">
                 </td>
                 <td>
                     <h3 id="height_value"></h3>
